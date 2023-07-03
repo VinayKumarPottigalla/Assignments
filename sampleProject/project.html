@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        .logo img{
+            padding-left: 50px;
+            padding-top: 10px;
+
+        }
+        header{
+            background-color: #e6f8fa;
+            height: 80px;
+            display: flex;
+            position: fixed;
+            width: 100%;
+        }
+
+        nav {
+            padding-top: 30px;
+            gap: 40px;
+            font-size: 20px;
+        }
+
+        .menu{
+            padding-left: 700px; 
+            display: flex;
+        }
+        .menu a{
+
+            text-decoration: none;
+            color: black;  
+            font-family: monospace;    
+        }
+        .menu a:hover{
+
+            color:#075661;
+            text-decoration: underline;
+        }
+        img{
+        width: 100%;
+        }
+        .conatiner{
+            position: relative;
+        }
+
+        h1{
+            position: absolute;
+            top: 200px;
+            left: 100px;
+            color: white;
+            font-size: 40px;
+            font-family: sans-serif;
+        }
+
+        .h2{
+
+            position: absolute;
+            top: 210px;
+            left: 90px;
+            font-size: 50px;
+            font-family:
+        }
+        .h3{
+            position: absolute;
+            top: 290px;
+            left: 90px;
+            font-size: 50px;
+            font-family:sans-serif;
+            color:#32ad9d;
+        }
+
+        .h4{
+
+            position: absolute;
+            top: 410px;
+            left: 90px;
+            font-size: 15px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #1e2b2a;
+        }
+        .button img{
+            width: 300px;
+            height: 60px;
+            position: absolute;
+            top: 460px;
+            left: 60px;
+        }
+
+        .anchor a{
+            position: absolute;
+            top: 478px;
+            left: 170px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #32ad9d;
+            font-family: sans-serif;
+        }
+
+        .card1{
+            width: 200px;
+            height:200px;
+            display: inline-block;
+            border: 1px  solid lightgray;
+            /* padding top: 30px; */            
+        }
+
+       
+
+        .cards{
+
+            justify-content: space-evenly;
+            display: flex;
+            padding-top: 50px;
+            
+        }
+
+        .nav1 a{
+            text-decoration: none;
+            border-radius: 10px;
+            background-color: rgb(245, 167, 154);
+            border: 1px hidden black;
+            padding-bottom: 15px;
+            padding-left: 30px;
+            padding-right: 50px;
+            padding-top: 2px;
+            margin-left: 10px;
+            margin-right: 5px;
+            color: #23675b;
+        }
+
+        .nav2 a{
+            text-decoration: none;
+            padding-bottom: 15px;
+            background-color: #d5f4db;
+            border-radius: 10px;
+            border: 1px hidden black;
+            padding-left: 30px;
+            padding-right: 50px;
+            margin-left: 10px;
+            margin-right: 5px;
+            color: #23675b;
+        }
+
+        .nav3 a{
+            text-decoration: none;
+            padding-left: 30px;
+            background-color: #d0f2f0;
+            border-radius: 10px;
+            border: 1px hidden black;
+            padding-left: 30px;
+            padding-right: 50px;
+            padding-bottom: 15px;
+            margin-left: 10px;
+            margin-right: 5px;
+            color: #23675b;
+        }
+        .nav4 a{
+            text-decoration: none;
+            padding-left: 30px;
+            background-color:#739dba;
+            border-radius: 10px;
+            border: 1px hidden black;
+            padding-left: 30px;
+            padding-right: 50px;
+            padding-bottom: 15px;
+            margin-left: 10px;
+            margin-right: 5px;
+            color: #23675b;
+        }
+
+        .nav5 a{
+            text-decoration: none;
+            padding-left: 50px;
+            background-color: #f7d4fa;
+            border-radius: 10px;
+            border: 1px hidden black;
+            padding-left: 30px;
+            padding-right:50px;
+            padding-bottom: 15px;
+            margin-left: 10px;
+            margin-right: 5px;
+            color: #23675b;
+        }
+
+
+        .nav6 a{
+            text-decoration: none;
+            padding-left: 50px;
+            background-color: #f5e7d7;
+            border-radius: 10px;
+            border: 1px hidden black;
+            padding-left: 30px;
+            padding-right:50px;
+            padding-bottom: 15px; 
+            margin-left: 10px;
+            margin-right: 5px;
+            color: #23675b;
+        }
+
+        .featured  p{
+            text-align: center;
+            font-size: 60px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-bottom: 5px;
+        }
+
+        .collection p{
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+
+        .shirt{
+            display:inline-block;
+            width: 300px;
+            border:20px solid whitesmoke;
+            margin-left: 10px;
+            border-radius: 30px;
+            height: 420px;
+            margin-top: 10px;
+                   
+            
+        }
+
+        .shirt img{
+            border-radius: 20px;
+            
+            
+        }
+
+        h5{
+            font-size:20px;
+            padding-left: 10px;
+            margin: 0px;
+        }
+
+        h6{
+            font-size: 20px;
+            color: #6b6a66;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            margin: 0px;
+           
+        }
+
+        .star i{
+
+            padding-top: 40px;
+        }
+
+        .rate b{
+
+            font-size: 30px;
+            color: #075661;
+            padding-left: 10px;
+            
+        }
+
+        .rate i{
+            padding-left: 150px;
+            
+        }
+
+        .pic{
+            margin-top: 50px;
+            position: relative;
+        }
+
+
+        .conatiner1{
+            position: relative;
+        }
+
+        .matter h5{
+            position: absolute;
+            top: 2300px;
+            left: 600px;
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+
+         .matter h5{
+            position: absolute;
+            top: 2300px;
+            left: 600px;
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+
+         .matter1 h5{
+            position: absolute;
+            top: 2330px;
+            left: 300px;
+            color: white;
+            font-size:40px;
+            font-family: sans-serif;
+        }
+
+        .matter2 a{
+            position: absolute;
+            top: 2400px;
+            left: 600px;
+            color: black;
+            font-size:20px;
+            font-family: sans-serif;
+            text-decoration: none;
+            border: 1px solid;
+            background-color:white;
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        .arrival p{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bolder;
+            margin: 0px;
+        }
+
+        .arrival b{
+            text-align: center;
+            padding-left: 40%;
+            margin: 0px;
+            
+        }
+
+        .deals{
+            position: relative;
+        }
+
+        .deals h4{
+
+            position: absolute;
+            top: 60px;
+            left: 60px;
+            color: white;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .deals p{
+            position: absolute;
+            top: 80px;
+            left: 60px;
+            color: white;
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .deals h2{
+
+        position: absolute;
+        top: 180px;
+        left: 60px;
+        color: white;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+        }
+
+        .deals a{
+            position: absolute;
+            top: 240px;
+            left: 60px;
+            color: white;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 1px solid rgb(254, 250, 250);
+            text-decoration: none;
+            width: 130px;
+            height: 40px;
+            text-align:center;
+        }
+
+        .deals h3{
+
+            position: absolute;
+            top: 80px;
+            left: 820px;
+            color: white;
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .deals h6{
+
+            position: absolute;
+            top: 140px;
+            left: 807px;
+            color: white;
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .deals h5{
+
+            position: absolute;
+            top: 200px;
+            left: 812px;
+            color: white;
+            font-size: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .anc a{
+            position: absolute;
+            top: 260px;
+            left: 820px;
+            color: white;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 1px solid rgb(254, 250, 250);
+            text-decoration: none;
+            width: 130px;
+            height: 40px;
+            text-align:center;
+            background-color:#44796f
+        }
+
+
+        .deals{ 
+            display: inline-flex;
+            gap: 50px;
+            margin: 50px;
+        }
+
+        .image1{
+            padding-left: 20px;
+            width: 680px;
+
+        }
+        .image2{
+
+            width: 650px;
+            
+            height: 100px;
+        }
+
+        .season{
+            display: inline-flex;
+            margin-top: 0pxpx;
+            gap: 20px;
+            position: relative;
+            
+        }
+
+        .pic1 h2{
+            position: absolute;
+            top: 80px;
+            left: 100px;
+            color: white;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        .pic1 h3{
+            position: absolute;
+            top: 140px;
+            left: 100px;
+            color: rgb(73, 22, 22);
+            font-size: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        .pic2 h2{
+            position: absolute;
+            top: 40px;
+            left: 600px;
+            color: white;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .pic2 h3{
+            position: absolute;
+            top: 90px;
+            left: 600px;
+            color: white;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .pic2 h4{
+            position: absolute;
+            top: 140px;
+            left: 600px;
+            
+            font-size: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(73, 22, 22);
+        }
+
+        .pic3 h3{
+            position: absolute;
+            top: 110px;
+            left: 1100px;
+            color: rgb(73, 22, 22);
+            font-size: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .pic3 h2{
+            position: absolute;
+            top: 60px;
+            left: 1100px;
+            color: white;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .pic1{
+            width: 440px;
+            padding-left: 70px;
+            
+        }
+
+        .pic2{
+            width: 470px;
+            height: 250px;
+            margin-left: 10px;
+        }
+
+        .pic3{
+            width: 410px;
+            padding-left: 10px;
+        }
+
+        .container2 img{
+            height: 200px;
+            position: relative;
+            width: 900px;
+            top: 20px;
+            padding-left: 90px;
+            
+            
+        }
+
+        .container2{
+            background-color:#121e61;
+            
+    
+        }
+
+        .signup p{
+
+            position: absolute;
+            top: 4450px;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+            left: 50px;
+
+
+        }
+
+        .signup b{
+
+            position: absolute;
+            top: 4530px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            left: 50px;
+        }
+
+        .signup a{
+            text-decoration: none;
+            color: #f9c148;
+        }
+
+        .mail{
+
+        position: absolute;
+        top: 4500px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        left: 950px
+        }
+
+        .signup input{
+
+            border-radius: 5px 0 0 5px;
+            height: 45px;
+            
+            width: 310px;
+            border: hidden;
+        }
+
+        .mail a{
+            margin-left: -6px;
+            height: 30px;
+            padding-top: 13px;
+            padding-bottom: 5px;
+            width: 80px;
+            display: inline-flex;
+            border-radius: 0 5px 5px 0;
+            border: hidden;
+            background-color:#32ad9d;
+            color: white;
+            justify-content: center;
+            font-size: medium;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+        .footer{
+
+            display: inline-flex;
+            background-color:lightgrey;
+            width: 100%;
+        
+        }
+
+        .cara img{
+            width: 150px;
+            padding-top: 40px;
+        }
+
+        .contactinfo{
+
+            font-size: 18px;
+        }
+
+        .contactinfo b{
+
+            color: black;
+            padding-top: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .carainfo{
+
+            border: 1px hidden;
+            width: 390px;
+            margin-top: 40px;
+            margin-left: 120px;
+            color:#595858;
+            font-style: italic;
+            
+        }
+        .aboutus{
+
+            border: 1px h ;
+            width: 190px;
+            margin-top: 70px;
+            margin-left: 10px;
+            
+            font-size: 18px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-top: 30px;
+        }
+
+        .aboutus b{
+            color: black;
+        }
+
+        .aboutus a{
+            text-decoration: none;
+            color: #595858;
+
+        }
+        .account{
+
+            border: 1px hidden;
+            width: 200px;
+            margin-top: 70px;
+            margin-left: 10px;
+            font-size: 18px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-top: 30px;
+            gap: 15px;
+        }
+
+        .account a{
+            text-decoration: none;
+            color: #595858;
+            
+        }
+        
+        .account b{
+
+            color: black;
+        }
+
+        .install{
+
+            border: 1px hidden;
+            width: 500px;
+            margin-top: 70px;
+            margin-left: 10px;
+            color:#595858;
+            font-size: 20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-top: 95px;
+            margin: 5px;
+        }
+
+        .install img{
+
+            height: 60px;
+            width:200px;
+            padding-left: 10px;
+        }
+
+        .install b{
+            color: black;
+        }
+
+
+
+       
+    </style>
+</head>
+<body action="#">
+    <header>
+
+        <div class="logo">
+        <img src="./logo.png" alt="logo"></div>
+
+        <!-- Navigation links starts here -->
+         
+        <nav class="menu">
+            <a href="#">HOME</a>
+            <a href="#">SHOP</a>
+            <a href="#">BLOG</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="./hero4.png" alt="hero"></div>
+        
+        <div class="h1"><h1>Trade-in-offer</h1></div>
+        <div class="h2">
+        <h2>Super value deals</h2>
+        </div>
+        <div class="h3">
+            <h3>On all products</h3>
+        </div>
+
+        <div class="h4">
+            <h4>save more cupons & upto 74% Off!</h4>
+        </div>
+
+        <div class="button">
+            <img src="./button.png" alt="button">
+            
+        </div>
+
+        <div class="anchor">
+
+        <a href="#">Shop Now</a></div>
+    </div>
+
+        <!-- cards starts here -->
+
+    <div class="cards">
+        <div class="card1">
+            <img src="./f1.png" alt="card1">
+            <div class="nav1">
+                <a href="#">Free Shipping</a>
+            </div>
+        </div>
+            
+        <div class="card1">
+            <img src="./features/f2.png" alt="card1">
+            <div class="nav2">
+                <a href="#">Online Order</a>
+            </div>
+        </div>
+
+        <div class="card1">
+            <img src="./features/f3.png" alt="card1">
+            <div class="nav3">
+                <a href="#">Save Money</a>
+            </div>
+        </div>
+
+        <div class="card1">
+            <img src="./features/f4.png" alt="card1">
+            <div class="nav4">
+                <a href="#">Promotions</a>
+            </div>
+        </div>
+
+        <div class="card1">
+            <img src="./features/f5.png" alt="card1">
+            <div class="nav5">
+                <a href="#">Happy Sale</a>
+            </div>
+        </div>
+
+        <div class="card1">
+            <img src="./features/f6.png" alt="card1">
+            <div class="nav6">
+                <a href="#">24/7 Support</a>
+            </div>
+                
+        </div>
+    </div>
+
+
+    <div class="featured">
+    <p>Featured Products</p> </div>
+    
+    <div class="collection">
+    <p>Summer Collection New Modern Design</p></div>
+
+    <!-- /Shirts images starts here -->
+
+    <div class="shirts">
+        <div class="shirt">
+        <img src="./products/f1.jpg" alt="shirt1">
+        <h6>adidas
+        <h5>Cartoon Astronut Tshirt
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h6></h5>
+
+
+        <div class="rate">
+                <b>$78</b>
+                <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+        </div>
+        </div>
+
+        <div class="shirt">
+            
+        <img src="./products/f2.jpg" alt="shirt2"> 
+        <h6>adidas</h6>
+        <h5>Cartoon Astronut Tshirt
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h5>
+            
+        <div class="rate">
+                <b>$78</b>
+                <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+        </div>
+        </div>
+
+        <div class="shirt">
+        <img src="./products/f3.jpg" alt="shirt3">
+        <h6>adidas</h6>
+        <h5>Cartoon Astronut Tshirt
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></i></h5>
+
+        <div class="rate">
+                <b>$78</b>
+                <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+        </div>
+        </div>
+
+        <div class="shirt">
+        <img src="./products/f4.jpg" alt="shirt4">
+        <h6>adidas
+        <h5>Cartoon Astronut Tshirt
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h5>
+
+        <div class="rate">
+                <b>$78</b>
+                <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+        </div></div> <br> <br> <br>
+        
+        
+        
+    <div class="shirts">
+        <div class="shirt">
+        <img src="./products/f5.jpg" alt="shirt1">
+        <h6>adidas
+        <h5>Cartoon Astronut Tshirt
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;">
+        <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h6></h5>
+    
+        <div class="rate">
+                <b>$78</b>
+                <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+        </div>
+        </div>
+    
+        <div class="shirt">
+            <img src="./products/f6.jpg" alt="shirt2"> 
+            <h5>Cartoon Astronut Tshirt
+            <i class="fa-solid fa-star" style="color: #f5ac0f;">
+            <i class="fa-solid fa-star" style="color: #f5ac0f;">
+            <i class="fa-solid fa-star" style="color: #f5ac0f;">
+            <i class="fa-solid fa-star" style="color: #f5ac0f;">
+            <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h5>
+                
+            <div class="rate">
+                    <b>$78</b>
+                    <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+            </div>
+            </div>
+    
+            <div class="shirt">
+                <img src="./products/f7.jpg" alt="shirt3">
+                <h6>adidas</h6>
+                <h5>Cartoon Astronut Tshirt
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></i></h5>
+    
+                <div class="rate">
+                        <b>$78</b>
+                        <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+                </div>
+            </div>
+    
+            <div class="shirt">
+                <img src="./products/f8.jpg" alt="shirt4">
+                <h6>adidas
+                <h5>Cartoon Astronut Tshirt
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h5>
+    
+                <div class="rate">
+                        <b>$78</b>
+                        <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+                </div>
+                </div>
+    </div>
+
+    <!-- banner image -->
+
+    <div class="container1">
+        <img src="./images/images/banner/b2.jpg" alt=""></div>
+    
+     <div class="matter"><h5>Repaire Services</h5> </div>
+     <div class="matter1"><h5>Up to 70% Off - All t-Shirts & Accessories</h5> </div>
+        <div class="matter2"><a href="#">Explore More</a></div>
+
+    <div class="arrival">
+        <p>New Arrival</p>
+
+        <b>Summer Collection New Modern Design </b>
+    </div>  
+    
+   
+
+    <!-- New Collection shirts start here -->
+
+    <div class="new">
+        <div class="shirt">
+                <img src="./images/images/products/n1.jpg" alt="shirt1">
+                <h6>adidas
+                <h5>Cartoon Astronut Tshirt
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h6></h5>
+    
+                <div class="rate">
+                <b>$78</b>
+                <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+                </div>
+        </div>
+    
+        <div class="shirt">
+                <img src="./images/images/products/n2.jpg" alt="shirt2"> 
+                <h6>adidas</h6>
+                <h5>Cartoon Astronut Tshirt
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h5>
+                
+                <div class="rate">
+                <b>$78</b>
+                <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+                </div>
+        </div>
+    
+        <div class="shirt">
+                <img src="./images/images/products/n3.jpg" alt="shirt3">
+                <h6>adidas</h6>
+                <h5>Cartoon Astronut Tshirt
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></i></h5>
+    
+                <div class="rate">
+                        <b>$78</b>
+                        <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+                </div>
+        </div>
+    
+        <div class="shirt">
+                <img src="../images/images/products/n4.jpg" alt="shirt4">
+                <h6>adidas
+                <h5>Cartoon Astronut Tshirt
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h5>
+    
+                <div class="rate">
+                <b>$78</b>
+                <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+                </div>
+            </div> <br> <br> <br>
+            <div class="shirts">
+                <div class="shirt">
+                <img src="./images/images/products/n5.jpg" alt="shirt1">
+                <h6>adidas
+                <h5>Cartoon Astronut Tshirt
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h6></h5>
+        
+                <div class="rate">
+                        <b>$78</b>
+                        <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+                </div>
+            </div>
+        
+                <div class="shirt">
+                    
+                    <img src="./images/images/products/n6.jpg" alt="shirt2"> 
+                    <h6>adidas</h6>
+                    <h5>Cartoon Astronut Tshirt
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h5>
+                    
+                    <div class="rate">
+                        <b>$78</b>
+                        <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+                    </div>
+                </div>
+        
+                <div class="shirt">
+                    <img src="./images/images/products/n7.jpg" alt="shirt3">
+                    <h6>adidas</h6>
+                    <h5>Cartoon Astronut Tshirt
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></i></h5>
+                            <div class="rate">
+                                <b>$78</b>
+                                <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+                            </div>
+                </div>
+        
+                <div class="shirt">
+                    <img src="./images/images/products/n8.jpg" alt="shirt4">
+                    <h6>adidas</h6>
+                    <h5>Cartoon Astronut Tshirt
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;">
+                    <i class="fa-solid fa-star" style="color: #f5ac0f;"></i></i></i></i></i></h5>
+        
+                    <div class="rate">
+                        <b>$78</b>
+                        <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #23675b;"></i>
+                </div>
+                </div>
+                
+    <div class="deals">
+        
+        <div class="image1">
+
+            <img src="./images/images/banner/b17.jpg" alt="">
+            <h4>creazy deals</h4> 
+            <p>buy 1 get 1 free
+            </p>
+            <h2>The best classic dress is on sale at coro</h2>
+            <a href="#">Learn More</a>
+        
+        </div>
+        <div class="image2">
+            <img src="./images/images/banner/b10.jpg" alt="">
+            <h3>spring/summer</h4> 
+            <h6>upcoming season
+            </h6>
+            <h5>The best classic dress is on sale at coro</h5>
+            <div class="anc"><a href="#">Collection</a></div>
+        </div>
+
+    </div>
+
+
+    <div class="season">
+
+        <div class="pic1">
+            <img src="./images/images/banner/b7.jpg" alt="pic1">
+            <h2>Seasonal sale</h2>
+            <h3>Winter collection 50% off</h3>
+        </div>
+
+        <div class="pic2">
+            <img src="./images/images/banner/b4.jpg" alt="pic2">
+            <h2>New Footwear</h2>
+            <h3>Collection</h3>
+            <h4>spring/summer 2022</h4>
+        </div>
+
+        <div class="pic3">
+            <img src="./images/images/banner/b18.jpg" alt="pic3">
+            <h2>T-Shirts</h2>
+            <h3>New Trendy Prints</h3>
+        </div>
+
+    </div>
+
+
+    <div class="container2">
+
+        <img src="./images/images/banner/b14.png" alt="logo">
+
+        <div class="signup">
+            <p>Sign Up For Newsletters</p>
+            <b>get email updates about our latest updates and <a href="#">special offers</a></b>
+        
+        <div class="mail">
+            <input type="email" placeholder="Your email address" required>
+
+            <a href="#">Sign Up</a>
+        </div>
+            </div></div>
+
+
+
+<!-- Footer starts here -->
+    <div class="footer">
+
+        <div class="carainfo">
+        <div class="cara">
+
+            <img src="./logo.png" alt="footerlogo"><br><br>
+                <div class="contactinfo">
+                <b>Contact</b><br>
+
+                <p>Address: Wellington Road, Street 32,San Franscio <br><br>
+                Phone : Wellington Road, Street 32,San Franscio <br><br>
+                Hours : 10:00-18:00. Mon-Sat <br><br>
+                <b>Follow Us</b> <br><br>
+                <i class="fa-brands fa-facebook">
+                <i class="fa-brands fa-youtube">
+                <i class="fa-brands fa-telegram">
+                <i class="fa-brands fa-instagram">
+                <i class="fa-brands fa-twitter"></i></i></i></i></i></p>
+            </div></div>
+
+
+        </div>
+        <div class="aboutus">
+
+            <b>About</b> <br><br>
+
+            <a href="#">About Us </a><br><br>
+            <a href="#">Delivery Information</a><br><br>
+            <a href="#">Privacy Policy</a><br><br>
+            <a href="#">Terms & Conditions</a><br><br>
+            <a href="#">Contact Us</a>
+           
+
+        </div>
+        <div class="account">
+
+            <b>My account</b> <br><br>
+
+            <a href="#">Sign In</a><br><br>
+            <a href="#">View Cart</a><br><br>
+            <a href="#">My Wishlist</a><br><br>
+            <a href="#">Track My Order</a><br><br>
+            
+           
+        </div>
+        <div class="install">
+
+            <b>Install App</b>
+
+            <p>From App Store Or Google Play <br> <br>
+
+            <a href="#"><img src="./images/images/pay/app.jpg" alt="app"></a>
+           <a href="#"> <img src="./images/images/pay/play.jpg" alt="play"></a> <br><br>
+
+
+                Secured Payment Gateways <br> <br>
+
+            <img src="./images/images/pay/pay.png" alt="pay"></p>
+
+        </div></div>
+               
+    
+            
+    </div>
+</div> 
+
+
+    
+    
+</body>
+</html>
