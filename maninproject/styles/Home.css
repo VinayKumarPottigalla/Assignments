@@ -1,0 +1,104 @@
+.know_before h3{
+    margin-top: 180px;
+    margin-left:0px;
+    background-color: #f8ab06;
+    border: 1px solid #f8ab06;
+    border-radius: 40px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family:Lucida Handwriting ;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.know_before img{
+    height: 40px;
+    width: 35px;
+    margin-left:10px;
+    margin-top: 184px
+}
+
+.know_before h1{
+    display: flex;
+    width: 10px;
+   margin-right: 0px;
+   position: relative;
+}
+
+.know_before{
+    display: flex;
+    
+}
+
+.highlight{
+    color:#f8ab06;
+}
+.head{
+    font-size: 30px;
+    margin-left:120px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.head p{
+
+    color: grey;
+    font-size: 23px;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: -15px;
+    line-height: 43px;
+    
+    }
+
+.travelling{
+
+    display: flex;
+
+}
+
+
+.hero1 img{
+    height: 400px;
+    width: 160px;
+    margin-left:600px ;
+    margin-top: -600px;
+    border: 2px solid #f8ab06;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.hero2 video{
+    height: 400px;
+    width: 160px;
+    margin-left:800px ;
+    margin-top: -550px;
+    border: 2px solid #f8ab06;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.hero3 img{
+    height: 400px;
+    width: 160px;
+    margin-left:1000px ;
+    margin-top: -500px;
+    border: 2px solid #f8ab06;
+    border-radius: 40px;
+    position: absolute;
+}
+
+.username h6{
+    display: flex;
+}
+
+.linksnav{
+
+    display: flex;
+
+}
+
+.footoptions{
+    margin-top: px;
+}

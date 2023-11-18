@@ -1,0 +1,86 @@
+input{
+    margin-left: -50px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.form-group h2{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.search{
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 800px;
+    border-radius: 46px;
+    padding-right:-200px;
+    margin-left: 0px;
+    position: relative;
+    height: 65px;
+    padding-top: 13px;
+}
+.locationspot span{
+position: absolute;
+margin-top: 64px;
+margin-left: 100px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-size: 13px;
+}
+.locationicon{
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 64px;
+    font-size: 15px;
+    color: rgb(246, 12, 12);
+}
+
+.distancespot span{
+    position: absolute;
+    margin-top: 64px;
+    margin-left: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    }
+.distanceicon{
+        margin-left: 320px;
+        position: absolute;
+        margin-top: 64px;
+        height:15px;
+        color: rgb(246, 12, 12);
+    }
+
+.peoplespot span{
+    position: absolute;
+    margin-top:65px;
+    margin-left: 570px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    }
+.peopleicon{
+            margin-left: 530px;
+            position: absolute;
+            margin-top: 64px;
+            height:15px;
+            color: rgb(246, 12, 12);
+    }
+
+.btn{
+    background-color: #f8ab06;
+    border: 1px solid #f8ab06;
+    border-radius: 8px 4px 8px 4px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+   
+}

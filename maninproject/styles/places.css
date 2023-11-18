@@ -1,0 +1,129 @@
+/* .cards{
+
+    display: flex;
+    border: 2px solid black;
+    height: 380px;
+    width: 220px;
+    box-shadow: 3px 3px 8px -3px;
+    margin-top: 130px;
+    margin-left: 60px;
+} */
+
+.cards img{
+
+  border-radius: 10px;
+}
+
+.card-place{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -36px;
+
+}
+
+.star{
+    height: 1px;
+    width: 3px;
+    padding-top: 30px;
+    margin-left: 90px;
+    color: #fcba03;
+    font-weight: lighter;
+
+}
+.card{
+    display: flex;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-left: -200px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column; /* Stack items vertically within each card */
+    border: 2px solid white;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 8px -3px;
+    margin-top: 30px; /* Adjust the margin as needed */
+    margin-bottom: 20px; /* Add spacing between rows */
+    margin-left: 64px;
+    border-radius: 10px;
+   
+    
+  }
+
+  .geo{
+    color: #fcba03;
+  }
+
+  .card-title{
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+.card-price{
+    margin-top: -90px;
+  }
+.card-price{
+    color: #fcba03;
+}
+.person {
+    color: rgb(96, 94, 94);
+    font-size: 22px;
+    margin-left: 48px;
+    margin-top: -68px;
+    font-weight: lighter;
+
+}
+.card-rating{
+    padding-top: 40px;
+    margin-left: 180px;
+    font-size: 12px;
+    
+
+}
+
+.rating{
+    font-size: 15px;
+    margin-left: 55px;
+    color: rgb(91, 90, 90);
+    font-weight: lighter;
+    }
+
+.rating h3{
+    color: rgb(47, 44, 44);
+}
+
+.bookbtn{
+    background-color: #fcba03;
+    height: 60px;
+    border: 1px solid #fcba03;
+    border-radius: 8px;
+    width: 80px;
+   margin-left: 160px;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.featured{
+    font-size: 30px;
+}
+.explore{
+
+    background-color: #fcba03;
+    height: 37px;
+    width: 100px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 350px;
+    font-family: Lucida Handwriting;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top:10px;
+   
+}

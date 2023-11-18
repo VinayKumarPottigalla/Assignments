@@ -1,0 +1,229 @@
+.tour img{
+    height: 600px;
+    width: 100%;
+  
+}
+
+.tour h1{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Stack items vertically within each card */
+    border: 2px solid white;
+    height: 390px;
+    width: 250px;
+    box-shadow: 3px 3px 8px -3px;
+    margin-top: 30px; /* Adjust the margin as needed */
+    margin-bottom: 20px; /* Add spacing between rows */
+    margin-left: 75px;
+    border-radius: 10px;
+   
+    
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-left: -120px;
+    margin-top: 80px;
+  }
+
+  .card-places{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -36px;
+
+}
+
+.star{
+    height: 1px;
+    width: 3px;
+    padding-top: 30px;
+    margin-left: 90px;
+    color: #f8ab06;
+    font-weight: lighter;
+
+}
+.card{
+    display: flex;
+}
+
+
+
+  .geo{
+    color: #f8ab06;
+  }
+
+  .titles{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+.card-prices{
+    margin-top: -90px;
+  }
+.card-prices{
+    color: #f8ab06;
+    font-size: 29px;
+    margin-left: 10px;
+}
+.persons{
+    color: rgb(96, 94, 94);
+    font-size: 22px;
+    margin-left: 58px;
+    margin-top: -75px;
+    font-weight: bold;
+
+}
+.card-rating{
+    padding-top: 40px;
+    margin-left: 180px;
+    font-size: 12px;
+    
+
+}
+
+.ratings{
+    font-size: 15px;
+    margin-left: 55px;
+    color: rgb(91, 90, 90);
+    font-weight: lighter;
+    }
+
+.rating h3{
+    color: rgb(47, 44, 44);
+}
+
+.bookbtns{
+    background-color: #f8ab06;
+    height: 60px;
+    border: 1px solid #f8ab06;
+    border-radius: 8px;
+    width: 80px;
+   margin-left: 160px;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+
+input{
+    margin-left: 70px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.form-group h2{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.search-bar2{
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 800px;
+    border-radius: 46px;
+    padding-right:-200px;
+    margin-left: 90px;
+    position: relative;
+    height: 65px;
+    padding-top: 13px;
+}
+.location span{
+position: absolute;
+margin-top: 90px;
+margin-left: 180px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-size: 13px;
+}
+.locs{
+    margin-left: 160px;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 15px;
+    color: rgb(246, 12, 12);
+}
+
+.distance span{
+    position: absolute;
+    margin-top: 90px;
+    margin-left:430px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    }
+.diss{
+        margin-left:400px;
+        position: absolute;
+        margin-top: 88px;
+        height:15px;
+        color: rgb(246, 12, 12);
+    }
+
+.people span{
+        position: absolute;
+        margin-top:90px;
+        margin-left: 650px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+    }
+.peos{
+            margin-left: 630px;
+            position: absolute;
+            margin-top: 90px;
+            height:15px;
+            color: rgb(246, 12, 12);
+    }
+
+.btn{
+    background-color: #f8ab06;
+    border: 1px solid #f8ab06;
+    border-radius: 8px 4px 8px 4px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.one h3{
+    margin-left: -30px;
+    border: 1px solid #f8ab06;
+    height: 30px;
+   background-color: #f8ab06;
+   text-align: center;
+   border-radius: 90px;
+   color: white;
+}
+
+.onetwo{
+    display: flex;
+    margin-left: 50%;
+}
+
+.two h3{
+    margin-left: 20px;
+    border: 1px solid #f8ab06;
+    height: 30px;
+   width: 30px;
+   text-align: center;
+   border-radius: 90px;
+   
+}
+
+.footoptions{
+    margin-top: -200px;
+}
